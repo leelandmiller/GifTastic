@@ -1,0 +1,39 @@
+.navbar {
+    /*height: 80px;*/
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.navbar-header {
+    /*height: 80px;*/
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-form {
+    /*margin-top: 20px;*/
+}
+
+.content {
+    padding: 0px;
+}
+
+#gifs {
+    margin-top: 10px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.gif-box {
+    margin-bottom: 10px;
+
+}
+.gif-img {
+    height: 190px;
+}
