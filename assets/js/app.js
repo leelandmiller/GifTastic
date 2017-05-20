@@ -34,7 +34,7 @@ var GifTastic = function() {
         // replace white space with '+' in query for the Giphy request
         query = query.replace(' ', '+');
         // creates url using provided query, limit, and APIKey
-        var url = 'http://api.giphy.com/v1/gifs/search?q=' + query + '&limit=' + limit + '&api_key=' + APIKey;
+        var url = 'https://api.giphy.com/v1/gifs/search?q=' + query + '&limit=' + limit + '&api_key=' + APIKey;
         // declare ajaxSettings
         var ajaxSettings = {
             url: url,
